@@ -1,0 +1,40 @@
+a{
+  color: black !important;
+}
+.lcard{
+  width: 450px;
+  height: 400px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+.mycard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid rgb(0, 119, 255) !important;
+  box-shadow: 0 1px 0 0 rgb(0, 119, 255) !important;
+}
+.lcard input{
+  margin-bottom: 20px !important;
+}
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.homecard{
+  width: 600px;
+
+}
+i{
+  cursor: pointer;
+}
+.pdetails p{
+  margin: 5px;
+}
